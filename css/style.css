@@ -25,8 +25,9 @@ nav li{
 .column-8{width: 80%;}
 .column-9{width: 90%;}
 .column-10{width: 100%;}
-h4,h5{
+p{
   margin:10px 0px 60px 10px;
+  color: blue;
 
 }
 .row:after {
@@ -67,6 +68,15 @@ input[type="button"]{
    margin-top:10px ;
    padding: 1%  2%;
 }
+.allquiz2{
+  border-top: 1px solid #e3e2dd;
+   margin-top:10px ;
+   padding: 1%  2%;
+}
 .quiz{
 margin-left:2%;
+}
+section{
+  border:1px solid #e3e2dd;
+  height: 30vh;
 }
