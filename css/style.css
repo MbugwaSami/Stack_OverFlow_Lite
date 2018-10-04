@@ -1,10 +1,72 @@
 
-ul{
+nav ul{
   list-style-type: none;
   background-color: #e3e2dd;
   margin: 0px;
    padding:10px;
 }
-li{
+nav li{
   display: inline;
+}
+*{
+  box-sizing: border-box;
+}
+[class*="column-"]{
+  float: left;
+  margin-top: 5px;
+  }
+.column-1{width: 10%;}
+.column-2{width: 20%;}
+.column-3{width: 30%;}
+.column-4{width: 40%;}
+.column-5{width: 50%;}
+.column-6{width: 60%;}
+.column-7{width: 70%;}
+.column-8{width: 80%;}
+.column-9{width: 90%;}
+.column-10{width: 100%;}
+h4,h5{
+  margin:10px 0px 60px 10px;
+
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.sideNav{
+  border-right: 1px solid #e3e2dd;
+  height:100vh;
+}
+.sideNav ul{
+   list-style-type: none;
+
+
+}
+
+.sideNav li{
+  padding: 8px;
+   margin:0px 10px 10px 0px ;
+   background-color :#e3e2dd;
+}
+input[type="button"]{
+  background-color: skyblue;
+  float: right;
+}
+.top{
+  border-bottom: 1px solid #e3e2dd;
+}
+.allposts{
+  border-right: 1px solid #e3e2dd;
+  height:100vh;
+}
+.allquiz{
+  background-color: #e3e2dd;
+   margin-right: 1%;
+   margin-left: 1%;
+   margin-top:10px ;
+   padding: 1%  2%;
+}
+.quiz{
+margin-left:2%;
 }
